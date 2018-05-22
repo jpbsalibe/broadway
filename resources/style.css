@@ -42,6 +42,10 @@ footer {
     background-color: dimgray;
 }
 
+foot-bar span {
+    font-size: 18px;
+}
+
 .copy {
     color: white;
     font-size: 11px;
