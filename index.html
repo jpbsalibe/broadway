@@ -6,23 +6,26 @@
         <meta charset="utf-8">
         <meta name="author" content="Jean Pierre Barroilhet">
         <meta name="description" content="Excersice for codecademy">
+        <link href="resources/style.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
         
         <header>
-            <h1>BRoadway Design</h1>
-            <nav>
+            <h1>Broadway Design</h1>
+            <nav id="home">
                 <ol>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Process</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ol>
             </nav>
         </header>
     
+        <!--- HERE START THE CONTENT --->
+        
         <div id="process">
             <h2>Our Process</h2>
             
@@ -52,26 +55,30 @@
         </div>
         
         <div id="team">
-            <h2>Team</h2>
-            <h3>We're Hiring!</h3>
+            <h3>Team</h3>
+            <p>We're Hiring!</p>
         </div>
         
-        <div id="cotact">
-            <h2>Contact</h2>
+        <div id="contact">
+            <h3>Contact</h3>
             <p>Phone: (555)-555-5555</p>
             <p>E-mail: test@example.com</p>
             <p>Twitter: @test</p>
         </div>
+      
+        <!--- END OF THE CONTENT --->
         
         <footer>
-            <p>&copy;Broadway 2017</p>
-            <ol>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Process</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ol>
+            <div class="foot-bar">
+                <p class="copy">&copy;Broadway 2017</p>
+                <ol>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ol>
+            </div>
         </footer>
         
     

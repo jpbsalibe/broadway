@@ -1,0 +1,69 @@
+/*--- TAGS ---*/
+
+body {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+header {
+    background-image: url(images/the-flatiron-building.png);
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+h3  {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+ol {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    background-color: dimgray;
+}
+
+footer p,
+footer ol {
+    color: white;
+}
+
+
+/*--- CLASSES ---*/
+
+.foot-bar {
+    text-align: left;
+}
+
+.copy {
+    font-size: 11px;
+}
+
+/*--- ID'S ---*/
+
+#process h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#work h1 {
+    background-image: url(images/the-flatiron-building.png);
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
